@@ -42,6 +42,7 @@ Updated version of panoptyks 2022 guerilla guide
     * [13.2 example for a display layout](#132-example-for-a-display-layout)
     * [13.3 other plugins/fixes](#133-other-pluginsfixes)
   * [14 known bugs](#14-known-bugs)
+  * [15 Building Pwnagotchi From Source Code 4 N00bs (Linux)](#15-Building-Pwnagotchi-From-Source-Code-4-N00bs-(Linux-&-MacOS[UNTESTED]))
   * [To Do](#to-do)
 
 ## Preface
@@ -566,6 +567,24 @@ update it with this:
 
 - bettercap not showing any signals
 - activation of *onlinehashcrack* or *wpa-sec* plugin leads to pwnagotchi not starting up
+
+## 15 Building Pwnagotchi From Source Code 4 N00bs (Linux & MacOS[UNTESTED])
+
+The crew over at 3rd Eye Labs suck at the software side of things, so we got some tools to help us building PWnagotchi from source code. Then we said, "hey, if we are noobs at this then we're pretty sure there are other noobs out there that could use these tools". Just follow the steps below to get the script and run it.... and ummm that is it, Pwnagotchi will be built from source code. The script was only tested on Ubuntu and Kali so please let us know if there are any issues on other Linux distros. Next tutorial will cover the process of converting your freshly built Pwnagotchi to an SD card flashable image.
+
+```bash
+# Download the build tool [Linux]
+wget https://raw.githubusercontent.com/3rdEyeLabs-io/pwnagotchi_File_Fixes/main/pwnagotchi_bfs_tool.sh
+
+# Download the build tool [MacOS]
+wget https://raw.githubusercontent.com/3rdEyeLabs-io/pwnagotchi_File_Fixes/main/pwnagotchi_bfs_tool_MacOS.sh
+
+# Make the script executable (please make sure your filename includes the MacOS if you are using that version)
+chmod +x pwnagotchi_bfs_tool.sh
+
+# Run the script (again...please make sure your filename includes the MacOS if you are using that version)
+./pwnagotchi_bfs_tool.sh
+```
 
 ## To Do
 
