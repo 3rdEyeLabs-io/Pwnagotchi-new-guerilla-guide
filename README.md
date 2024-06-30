@@ -42,7 +42,7 @@ Updated version of panoptyks 2022 guerilla guide
     * [13.2 example for a display layout](#132-example-for-a-display-layout)
     * [13.3 other plugins/fixes](#133-other-pluginsfixes)
   * [14 known bugs](#14-known-bugs)
-  * [15 Building Pwnagotchi From Source Code 4 N00bs (Linux)](#15-Building-Pwnagotchi-From-Source-Code-4-N00bs-(Linux-&-MacOS[UNTESTED]))
+  * [15 Building Pwnagotchi From Source Code 4 N00bs (Linux & MacOS[UNTESTED])](#15-Building-Pwnagotchi-From-Source-Code-4-N00bs-(Linux-&-MacOS[UNTESTED]))
   * [To Do](#to-do)
 
 ## Preface
